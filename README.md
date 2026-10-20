@@ -2,7 +2,7 @@
 
 **Senior Full Stack Developer & Mobile Engineer** · México 🇲🇽
 
-Especialista en **arquitectura de software escalable, ecosistemas móviles multiplataforma y despliegues cloud de alta disponibilidad**. Más de 5 años construyendo productos con **Laravel, Vue.js, Flutter y PostgreSQL/MySQL**, de la idea a producción.
+Especialista en **arquitectura de software escalable, ecosistemas móviles multiplataforma y despliegues cloud de alta disponibilidad**. Más de 7 años construyendo productos con **Laravel, Vue.js, Flutter y PostgreSQL/MySQL**, de la idea a producción.
 
 <p>
   <a href="https://eduardoaguero.dev"><img src="https://img.shields.io/badge/Portafolio-eduardoaguero.dev-6366f1?style=for-the-badge&logo=astro&logoColor=white" alt="Portafolio" /></a>
