@@ -1,8 +1,8 @@
 # 👋 ¡Hola! Soy Eduardo Aguero / Hi there! I'm Eduardo Aguero
 
-**Senior Full Stack Developer & Mobile Engineer** · México 🇲🇽
+**Desarrollador Full Stack · Laravel · Vue.js · Flutter · MCP e IA** · México 🇲🇽
 
-Especialista en **arquitectura de software escalable, ecosistemas móviles multiplataforma y despliegues cloud de alta disponibilidad**. Más de 7 años construyendo productos con **Laravel, Vue.js, Flutter y PostgreSQL/MySQL**, de la idea a producción.
+**8 años de experiencia** construyendo plataformas SaaS multi-tenant, apps Android y sistemas de integración para agentes de IA con **Laravel, Vue.js, Flutter y Node.js/TypeScript**, y administrando infraestructura cloud en producción (~90 sitios WordPress).
 
 <p>
   <a href="https://eduardoaguero.dev"><img src="https://img.shields.io/badge/Portafolio-eduardoaguero.dev-6366f1?style=for-the-badge&logo=astro&logoColor=white" alt="Portafolio" /></a>
@@ -15,11 +15,11 @@ Especialista en **arquitectura de software escalable, ecosistemas móviles multi
 
 ## 🧠 Sobre mí / About Me
 
-- 🏗️ Diseño **APIs RESTful** y sistemas **multi-tenant** con Laravel 11, consumidos por web (Vue 3) y móvil (Flutter) desde un único backend.
+- 🏗️ Diseño **APIs RESTful** y sistemas **multi-tenant** con Laravel, consumidos por web (Vue 3) y móvil (Flutter) desde un único backend.
 - 📱 Publico apps en **Google Play**: firma con Keystore, Android App Bundles (`.aab`), pistas de prueba, notificaciones FCM y CI/CD.
-- 🔒 Sistemas de **alta concurrencia** con PostgreSQL: bloqueos a nivel de fila (`SELECT ... FOR UPDATE`) y transacciones ACID.
-- ☁️ Infraestructura en **Cloudflare** (DNS, WAF, R2, Pages), **DigitalOcean**, **xCloud** y **CloudPanel**; administración y migración de una flota de **90+ sitios**.
-- 🤖 Automatización con **Python, Bash, WP-CLI**, agentes CLI y **Model Context Protocol (MCP)**.
+- 🤖 Creador de **Hub MCP**: servidor MCP remoto que conecta Claude y otros agentes con WordPress, Search Console, GA4 y Google Ads, con OAuth 2.1, cifrado AES-256-GCM y bitácora de auditoría.
+- ☁️ Infraestructura en **DigitalOcean**, **xCloud**, **CloudPanel**, **Docker** y **Cloudflare**; administración y migración de una flota de **~90 sitios**.
+- ⚙️ Automatización con **Node.js, Python y Bash**, y desarrollo asistido con **Claude Code**.
 - 🔐 Interés en buenas prácticas, seguridad web y arquitectura limpia.
 
 ---
@@ -37,17 +37,25 @@ Especialista en **arquitectura de software escalable, ecosistemas móviles multi
   <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/DigitalOcean-0080FF?logo=digitalocean&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
 </p>
 
 | Área | Tecnologías |
 |---|---|
+| **Frontend** | Vue 3 (Composition API, Pinia, Vue Router, Vite), Inertia, Tailwind CSS, TypeScript / JavaScript |
+| **Mobile** | Flutter (Dart), Android, BLoC, notificaciones push (FCM), AdMob, Google Play Console |
+| **Backend & APIs** | PHP (Laravel 11/12, Sanctum, multi-tenant, REST), Node.js / TypeScript (Hono), Python |
+| **Bases de datos** | MySQL, MariaDB (modelado, índices, transacciones, procedimientos almacenados) |
+| **Cloud & DevOps** | DigitalOcean, xCloud, CloudPanel, RunCloud, Dokploy, Docker, Nginx, Cloudflare, Linux, Git / GitHub |
+| **IA & Automatización** | Model Context Protocol (MCP), OAuth 2.1, Claude Code, APIs de Google (GSC, GA4, Ads) |
+
+---|---|
 | **Frontend** | Vue 3 (Composition API, Pinia), Tailwind CSS, TypeScript / JavaScript ES6+ |
 | **Mobile** | Flutter (Dart), iOS y Android, state management, push, Keystore, Google Play CI/CD |
 | **Backend & APIs** | PHP (Laravel 11, multi-tenant, REST), Python (FastAPI, automatización, ingesta de datos) |
@@ -63,6 +71,22 @@ Detalle completo (problema → arquitectura → stack → resultado) en **[eduar
 
 | Proyecto | Qué resolví | Tecnologías |
 |---|---|---|
+| **[Hub MCP](https://eduardoaguero.dev/proyectos/hub-mcp/)** | Conector MCP remoto para que agentes de IA operen sitios WordPress y consulten Search Console, GA4 y Google Ads con seguridad por capas | Node.js · TypeScript · Hono · OAuth 2.1 · MariaDB |
+| **[Cotización Express (SaaS multi-tenant)](https://eduardoaguero.dev/proyectos/cotizaciones-saas/)** | Plataforma web y Android sobre una sola API REST; PDFs en Cloudflare R2 y publicación en Google Play | Laravel · Vue 3 · Flutter · MySQL · Stripe |
+| **[Plataforma de rifas](https://eduardoaguero.dev/proyectos/sorteos-concurrencia/)** | Cobros por organizador con Stripe Connect y boletos que no pueden duplicarse | Laravel 12 · Inertia · Vue 3 · Stripe Connect |
+| **[Microservicios y procesamiento de datos](https://eduardoaguero.dev/proyectos/microservicios-datos/)** | Extracción, sincronización y normalización periódica entre orígenes de datos | Python · PostgreSQL · MySQL · Cron |
+| **[Orquestación de infraestructura](https://eduardoaguero.dev/proyectos/orquestacion-infraestructura/)** | Administración y migración de ~90 sitios con WAF, CDN y menor consumo de recursos | DigitalOcean · Cloudflare · xCloud · WP-CLI |
+
+### Más proyectos / More projects
+
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| **Gestión veterinaria** | API y panel para citas, expedientes, vacunas y cirugías, con permisos por rol | Laravel 11 · Sanctum / JWT · Vue 3 |
+| **POS Farmacia** | Caja, ventas, compras, inventario con caducidad, créditos y apartados | PHP MVC · MySQL |
+| **Store Locator Native Pro** | Plugin de WordPress con búsqueda radial (Haversine) y mapa Leaflet / OpenStreetMap | PHP · MySQL · Leaflet |
+| **[cotizacion-express.com](https://cotizacion-express.com)** | Sitio de Cotización Express | WordPress |
+
+---|---|---|
 | **[SaaS de Cotizaciones & POS](https://eduardoaguero.dev/proyectos/cotizaciones-saas/)** | Plataforma multi-tenant web y móvil sobre una sola API; PDFs en Cloudflare R2 y publicación en Google Play | Laravel · Vue · Flutter · MySQL · R2 |
 | **[Plataforma de alta concurrencia y sorteos](https://eduardoaguero.dev/proyectos/sorteos-concurrencia/)** | Asignación de folios en tiempo real sin condiciones de carrera | Laravel 11 · Vue 3 · PostgreSQL · Stripe Connect |
 | **[Microservicios y procesamiento de datos](https://eduardoaguero.dev/proyectos/microservicios-datos/)** | Extracción, sincronización y normalización periódica entre orígenes de datos | Python · PostgreSQL · MySQL · Cron |
